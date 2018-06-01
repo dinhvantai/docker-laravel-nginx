@@ -1,7 +1,5 @@
 FROM nginx:latest
 
-MAINTAINER Dinh Tai
-
 ENV TERM xterm
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY default.conf /etc/nginx/conf.d/default.conf
